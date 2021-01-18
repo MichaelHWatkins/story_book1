@@ -20,6 +20,54 @@ div {
   box-sizing: border-box;
 }
 
+.title{
+  background: image-url("title.png");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.feast{
+  background: image-url("feast.png");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.forge{
+  background: image-url("forge.png");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.tea{
+  background: image-url("tea.png");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.bellows{
+  background: image-url("bellows.png");
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+.bedroom{
+  background: image-url("bedroom.png");
+  height:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
 .horizontal-scroll-wrapper {
   position: absolute;
   display: block;
@@ -37,7 +85,6 @@ div {
   & > div {
     display: block;
     padding: 5px;
-    background: #cab;
     transform: rotate(90deg);
     transform-origin: right top;
   }
