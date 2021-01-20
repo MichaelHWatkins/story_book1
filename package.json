@@ -2,10 +2,6 @@
   "name": "story_book1",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "3.5",
-    "prop-types": "~15.6.0",
-    "react": "~16.8.0",
-    "react-dom": "~16.8.0",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
@@ -16,9 +12,15 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.6.2",
+    "@rails/webpacker": "3.5",
     "babel-loader": "^8.0.6",
+    "prop-types": "~15.6.0",
+    "react": "~16.8.0",
+    "react-dom": "~16.8.0",
     "react-router-dom": "5.0.0",
-    "redbox-react": "1.6.0"
+    "react-spring": "^8.0.27",
+    "redbox-react": "1.6.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.1",
